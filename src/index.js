@@ -9,16 +9,11 @@ import * as serviceWorker from './serviceWorker'
 import App from './App'
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>,
-  // document.getElementById('root')
- 
-    <div>
-      <main>
-        <App />
-      </main>
-    </div>, 
+  <div>
+    <main>
+      <App />
+    </main>
+  </div>, 
   document.getElementById("root")
 )
 
